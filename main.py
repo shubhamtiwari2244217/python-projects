@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from PIL import Image
 import time
-url = 'http://10.43.251.187:8080/shot.jpg'
+url = '<url of your ip webcam >'
 while True:
     img = request.urlopen(url)
     img_bytes = bytearray(img.read())
